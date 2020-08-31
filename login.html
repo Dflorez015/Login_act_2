@@ -2,23 +2,23 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login</title>
 </head>
-<body>
-    <div class="loginbox">
-        <img src="abby.jpg" class="avatar">
-            <h1>Ingresar </h1>
+<body class="loginbody">
+    <section class="loginbox">
+        <img src="logo.png" class="avatar">
+            <h1>LOGIN</h1>
             <form action="">
-                <p>Usuario</p>
-                <input type="text" name="" placeholder="Escriba su usuario" required>
-                <p>Contraseña</p>
-                <input type="password" name="" placeholder="Escriba contraseña" required>
-                <input type="submit" name="" value="Ingresar">
-                <a href="#">¿Perdió su contraseña?</a><br>
-                <a href="#">¿No tiene cuenta?</a>
+                <p>Usuario<br>
+                <input class="controles" type="text" name="user"   placeholder="Ingrese su usuario" required></p>
+                <p>Contraseña<br>
+                <input class="controles" type="password" name="pass"  placeholder="Ingrese su contraseña" required></p>
+                <input class="botones" type="submit" value="Ingresar">
+                <a href="#" >¿Perdió su contraseña?</a><br></br>
+                <a href="registro.html">¿No tienes una cuenta?</a>
             </form>
-    </div>
+    </section>
 </body>
 </html>
